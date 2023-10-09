@@ -4,7 +4,7 @@ import Info from "./Info";
 
 function App() {
   return (
-    <div>
+    <div className="bg-no-repeat bg-right xl:bg-[url('../public/images/bg.png')]">
       <Header />
       <Hero />
       <Info />
